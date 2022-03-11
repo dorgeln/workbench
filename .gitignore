@@ -1,0 +1,3 @@
+.micromamba/
+bench/_build
+tmp_dir_sphinx_ansible/

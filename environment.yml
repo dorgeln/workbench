@@ -1,0 +1,48 @@
+# Micromamba environment file
+# https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
+
+name: default
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - ansible
+  - terraform
+  - certbot
+  - vault
+  - python-openstackclient
+  - gh
+  - shyaml
+  - pip
+  - maturin
+  - rust
+  - just
+  - pytest
+  - pytest-benchmark
+  - matplotlib
+  - jupyterlab
+  - ansible-kernel
+  - jupytext
+  - pre-commit
+  - zsh
+
+  - pip:
+    - ovh
+    - certbot-dns-ovh
+    - jupyterlite[all]
+    - sphinx
+    - jupyterlite-sphinx
+    - myst-parser
+    - myst-nb
+    - sphinx-theme-pd
+    - pydata-sphinx-theme
+    - sphinxcontrib-mermaid
+    - bqplot
+    - jupyter-book
+    - zsh_jupyter_kernel
+    - sphinx-ansible
+    - sphinx-terraform
+    - sshkernel
+    - ghp-import
