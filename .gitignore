@@ -1,3 +1,5 @@
 .micromamba/
-bench/_build
+build/
+jupyter_execute/
 tmp_dir_sphinx_ansible/
+**/.ipynb_checkpoints/**

@@ -21,18 +21,43 @@ dependencies:
   - just
   - pytest
   - pytest-benchmark
+  - pytest-cov
+  - pytest-regressions
   - matplotlib
-  - jupyterlab
   - ansible-kernel
   - jupytext
   - pre-commit
   - zsh
+  - ablog
+  - numpydoc
+  - sphinx
+  - altair
+  - vega_datasets
+  - jupyterlab
+  - jupyterlab-git
+  - matplotlib
+  - geopandas
+  - geojson
+  - pysal
+  - mapclassify
+  - osmnx
+  - pyrosm
+  - geopy
+  - geojson
+  - rasterio
+  - contextily
+  - folium
+  - mplleaflet
+  - bokeh
+  - pip
+  - pandas
+  - conda-merge
+
 
   - pip:
     - ovh
     - certbot-dns-ovh
     - jupyterlite[all]
-    - sphinx
     - jupyterlite-sphinx
     - myst-parser
     - myst-nb
@@ -46,3 +71,19 @@ dependencies:
     - sphinx-terraform
     - sshkernel
     - ghp-import
+    - nbgitpuller
+    - sphinx-comments
+    - sphinx-book-theme
+    - sphinxcontrib-youtube
+    - sphinx-design
+    - sphinx-comments
+    - sphinx-tabs
+    - sphinxext-opengraph
+    - sphinx-thebe
+    - sphinx-togglebutton
+    - ipywidgets
+    - nbclient
+    - plotly
+    - sphinxcontrib-bibtex
+    - beautifulsoup4
+    - coverage
