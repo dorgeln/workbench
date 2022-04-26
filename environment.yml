@@ -23,6 +23,9 @@ dependencies:
   - pytest-benchmark
   - pytest-cov
   - pytest-regressions
+  - cffi
+  - virtualenv
+  - auditwheel
   - matplotlib
   - ansible-kernel
   - jupytext
@@ -49,14 +52,77 @@ dependencies:
   - folium
   - mplleaflet
   - bokeh
-  - pip
   - pandas
   - conda-merge
-
+  - tox
+  - tox-conda
+  - poetry
+  - twine
+  - nodejs ==16.13.2
+  - ipyleaflet
+  - xeus-python
+  - conda-smithy
+  - clang
+  - lld
+  - llvm
+  - llvm-tools
+  - llvmdev
+  - grayskull
+  - zig
+  - testinfra
+  - pytest-testinfra
+  - consul
+  - consul-template
+  - go
+  - passlib
+  - dotnet-sdk
+  - six
+  - fastapi
+  - uvicorn[standard]
+  - python-multipart
+  - mamba
+  - pip
+  - fastapi
+  - typer
+  - authlib=0.15.5
+  - psycopg2
+  - httpx=0.20.0
+  - sqlalchemy
+  - sqlalchemy-utils
+  - sqlite
+  - python-multipart
+  - uvicorn
+  - zstandard
+  - conda-build
+  - appdirs
+  - toml
+  - fsspec
+  - requests
+  - h2
+  - pluggy
+  - jinja2
+  - itsdangerous
+  - alembic
+  - zchunk
+  - s3fs
+  - gcsfs >=2022.03
+  - sphinx
+  - sphinx-book-theme
+  - tenacity
+  - xattr
+  - aiofiles
+  - pyyaml
+  - ujson
+  - prometheus_client
+  - pamela
+  - typing_extensions
+  - adlfs
+  - importlib_metadata
 
   - pip:
     - ovh
     - certbot-dns-ovh
+    - certbot-dns-cloudflare
     - jupyterlite[all]
     - jupyterlite-sphinx
     - myst-parser
@@ -65,7 +131,6 @@ dependencies:
     - pydata-sphinx-theme
     - sphinxcontrib-mermaid
     - bqplot
-    - jupyter-book
     - zsh_jupyter_kernel
     - sphinx-ansible
     - sphinx-terraform
@@ -73,7 +138,6 @@ dependencies:
     - ghp-import
     - nbgitpuller
     - sphinx-comments
-    - sphinx-book-theme
     - sphinxcontrib-youtube
     - sphinx-design
     - sphinx-comments
@@ -87,3 +151,15 @@ dependencies:
     - sphinxcontrib-bibtex
     - beautifulsoup4
     - coverage
+    - sphinx-gallery
+    - sphinxcontrib-images
+    - sphinxawesome-theme
+    - sphinx-theme-builder[cli]
+    - yamllint
+    - ansible-lint
+    - molecule
+    - pdoc
+    - PyPortfolioOpt
+#    - git+https://github.com/QuantEcon/quantecon-book-theme.git
+#    - git+https://github.com:dorgeln/sphinx-book-theme.git
+#    - sphinx-book-theme

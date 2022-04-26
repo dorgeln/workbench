@@ -45,19 +45,22 @@ extensions = [
     "sphinx_togglebutton",
     "sphinxcontrib.bibtex",
     "sphinxext.opengraph",
-    "jupyter_book",
     "sphinx_comments",
     "sphinx.ext.mathjax",
     "sphinx.ext.githubpages",
     "sphinx.ext.todo",
     "IPython.sphinxext.ipython_console_highlighting",
     "IPython.sphinxext.ipython_directive",
+    "sphinxcontrib.images",
+    "jupyterlite_sphinx",
+    "sphinxcontrib.mermaid"
+
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
+# templates_path = ["_templates"]
 
-source_suffix = ['.rst', '.md']
+#source_suffix = ['.rst', '.md']
 
 # The master toctree document.
 master_doc = 'index'
